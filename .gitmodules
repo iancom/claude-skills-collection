@@ -52,3 +52,51 @@
 [submodule "agent-skills-for-context-engineering"]
 	path = agent-skills-for-context-engineering
 	url = https://github.com/muratcankoylan/agent-skills-for-context-engineering.git
+[submodule "marketingskills"]
+	path = marketingskills
+	url = https://github.com/coreyhaines31/marketingskills.git
+[submodule "awesome-claude-code-subagents"]
+	path = awesome-claude-code-subagents
+	url = https://github.com/VoltAgent/awesome-claude-code-subagents.git
+[submodule "claude-skills"]
+	path = claude-skills
+	url = https://github.com/alirezarezvani/claude-skills.git
+[submodule "awesome-claude-plugins"]
+	path = awesome-claude-plugins
+	url = https://github.com/quemsah/awesome-claude-plugins.git
+[submodule "payload"]
+	path = payload
+	url = https://github.com/payloadcms/payload.git
+[submodule "impeccable"]
+	path = impeccable
+	url = https://github.com/pbakaus/impeccable.git
+[submodule "ECC"]
+	path = ECC
+	url = https://github.com/affaan-m/ECC.git
+[submodule "ui-ux-pro-max-skill"]
+	path = ui-ux-pro-max-skill
+	url = https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
+[submodule "caveman"]
+	path = caveman
+	url = https://github.com/JuliusBrussee/caveman.git
+[submodule "ruflo"]
+	path = ruflo
+	url = https://github.com/ruvnet/ruflo.git
+[submodule "remotion"]
+	path = remotion
+	url = https://github.com/remotion-dev/remotion.git
+[submodule "frontend-slides"]
+	path = frontend-slides
+	url = https://github.com/zarazhangrui/frontend-slides.git
+[submodule "gsap-skills"]
+	path = gsap-skills
+	url = https://github.com/greensock/gsap-skills.git
+[submodule "visual-explainer"]
+	path = visual-explainer
+	url = https://github.com/nicobailon/visual-explainer.git
+[submodule "claude-seo"]
+	path = claude-seo
+	url = https://github.com/AgriciDaniel/claude-seo.git
+[submodule "harness"]
+	path = harness
+	url = https://github.com/revfactory/harness.git
