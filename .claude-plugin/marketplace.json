@@ -1,11 +1,8 @@
 {
   "name": "claude-skills-collection",
+  "description": "Indice de plugins de skills para Claude Code. Cada entrada e puxada do repositorio upstream original.",
   "owner": {
     "name": "iancom"
-  },
-  "metadata": {
-    "description": "Indice de plugins de skills para Claude Code. Cada entrada e puxada do repositorio upstream original.",
-    "version": "1.0.0"
   },
   "plugins": [
     { "name": "superpowers", "source": { "source": "github", "repo": "obra/superpowers" } },
