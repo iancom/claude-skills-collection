@@ -10,6 +10,36 @@ git clone --recurse-submodules https://github.com/iancom/claude-skills-collectio
 git submodule update --init --recursive
 ```
 
+## Usar como marketplace no Claude Code
+
+Este repo tem um `.claude-plugin/marketplace.json` que indexa os plugins **plugin-raiz**, cada um puxado direto da sua fonte upstream (o submódulo vazio não atrapalha):
+
+```
+/plugin marketplace add iancom/claude-skills-collection
+/plugin install superpowers@claude-skills-collection
+```
+
+16 plugins disponíveis por aqui: superpowers, cybersecurity-skills, claude-mem, understand-anything, taste-skill, antigravity-awesome-skills, marketing-skills, impeccable, ecc, ui-ux-pro-max, caveman, claude-flow (ruflo), gsap-skills, visual-explainer, claude-seo, harness.
+
+### Marketplaces que precisam ser adicionados separadamente
+
+Claude Code **não aninha marketplace dentro de marketplace**. Estes 8 já são marketplaces próprios — adicione cada um direto:
+
+```
+/plugin marketplace add anthropics/skills
+/plugin marketplace add alirezarezvani/claude-skills
+/plugin marketplace add vercel-labs/agent-browser
+/plugin marketplace add coroboros/agent-skills
+/plugin marketplace add VoltAgent/awesome-claude-code-subagents
+/plugin marketplace add muratcankoylan/agent-skills-for-context-engineering
+/plugin marketplace add payloadcms/payload
+/plugin marketplace add zarazhangrui/frontend-slides
+```
+
+### Fora do marketplace
+
+`gstack`, `rtk`, `snip`, `firecrawl`, `remotion`, `remotion-skills`, `vercel-agent-skills`, `MoneyPrinterTurbo`, `stop-slop`, `awesome-claude-plugins` não têm estrutura de plugin Claude Code — ficam só como submódulo/referência.
+
 ## Repositórios
 
 | Pasta | Origem | Descrição |
